@@ -107,7 +107,6 @@ body {
 .summary-result {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   list-style: none;
 }
 
@@ -115,13 +114,18 @@ img {
   font-size: .5rem;
 }
 
-li p {
+li {
   color:black;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
 
 .result-one {
   color: var(--light-red);
+  
 }
+
 
 
 
