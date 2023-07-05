@@ -112,19 +112,21 @@ body {
 
 img {
   font-size: .5rem;
+  
 }
 
 li {
-  color:black;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-between;
+  gap: 0.5em;
 }
 
 .result-one {
-  color: var(--light-red);
-  
+  color: hsla(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.1);
 }
+
 
 
 
